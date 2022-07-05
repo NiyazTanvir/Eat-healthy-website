@@ -1,18 +1,23 @@
 body {
 
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 /* fist section styling starts*/
 
-.dim-grey-text-color {
-
+.first-heading {
     font-size: 90px;
-    color: dimgrey;
     margin-top: -10px;
     padding-right: 10px;
     margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.dim-grey-text-color {
+    color: dimgrey;
+    margin-bottom: 100px;
+
 }
 
 .first-section {
@@ -52,9 +57,6 @@ h1 span {
     font-weight: 700;
 }
 
-p {
-    margin-bottom: 100px;
-}
 
 /* fist section styling ends*/
 
@@ -80,8 +82,16 @@ p {
     padding-top: 8%;
 }
 
+.second-section-width p {
+    font-size: 18px;
+}
+
 img {
     width: 70%;
+}
+
+.para-two {
+    margin-bottom: 100px;
 }
 
 /* second section styling ends*/
@@ -90,9 +100,11 @@ img {
 
 h2 {
     font-size: 50px;
+
 }
 
 .texts-one {
+    font-size: 18px;
     color: dimgray;
     text-align: center;
     padding: 0px 500px 0px 500px;
@@ -100,10 +112,78 @@ h2 {
 
 /* third section styling ends*/
 
-/* fourth section styling ends*/
+/* fourth section styling starts*/
 
 .boxes {
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.box-design {
+    margin: 20px;
+    width: 50%;
+    border: 1px;
+    padding: 30px;
+    box-shadow: 0px 0px 30px rgb(194, 193, 193);
+    border-radius: 50px;
+}
+
+.box-design img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.para-four {
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 /* fourth section styling ends*/
+
+/* fith section styling starts*/
+
+.visitor-count {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px rgb(163, 161, 161);
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.social {
+    width: 30%;
+}
+
+.par-four {
+    margin-top: 0px;
+}
+
+/* fith section styling ends*/
+footer span {
+    color: orange;
+}
+
+#fresh {
+    color: gray;
+}
+
+footer p {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 30px;
+}
