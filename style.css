@@ -1,0 +1,109 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+/* fist section styling starts*/
+
+.dim-grey-text-color {
+
+    font-size: 90px;
+    color: dimgrey;
+    margin-top: -10px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.first-section {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.first-section-width {
+    width: 50%;
+    margin-left: 50px;
+    vertical-align: middle;
+
+}
+
+.first-section-width img {
+    width: 100%;
+    margin-left: -20px;
+}
+
+.first-section-width p {
+    font-size: 30px;
+}
+
+h1 span {
+    color: orange;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 100px;
+}
+
+/* fist section styling ends*/
+
+/* second section styling starts*/
+
+.second-section {
+    display: flex;
+    color: dimgray;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+}
+
+.second-section-width {
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 8%;
+}
+
+img {
+    width: 70%;
+}
+
+/* second section styling ends*/
+
+/* third section styling startss*/
+
+h2 {
+    font-size: 50px;
+}
+
+.texts-one {
+    color: dimgray;
+    text-align: center;
+    padding: 0px 500px 0px 500px;
+}
+
+/* third section styling ends*/
+
+/* fourth section styling ends*/
+
+.boxes {
+    display: flex;
+}
+
+/* fourth section styling ends*/
